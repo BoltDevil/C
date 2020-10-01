@@ -31,7 +31,7 @@ int main(void)
    {
       char name[10];
       int math;
-   } student[MAX];		/* 宣告結構陣列student */
+   } student[MAX];		/* 宣告結構陣列student  */
    
    for(i=0;i<MAX;i++)	 
    {
