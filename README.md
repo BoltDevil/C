@@ -57,7 +57,7 @@ int main(void)
 {
    struct student		/* 定義結構 */
    {
-       char name[10];
+       char name[20];
        int KSUID;
        int program;
    }s[1];
@@ -94,7 +94,7 @@ int main(void)
 {
 	struct student /*結構設定*/
 	{
-		char name[10];
+		char name[20];
 		int ID;
 		int prog;
 	 } 
@@ -123,7 +123,7 @@ int main(void)
 {
    struct data
    {
-      char name[10];
+      char name[20];
       int num;
 	  int math;
    } s1={"trump",18080001,83},s2={"Obama",18080002,84};   	/* 宣告結構變數s1，並設定初值 */
